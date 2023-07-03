@@ -10,7 +10,7 @@ const pexels = 'https://www.pexels.com/search/' //https://www.pexels.com/search/
       <h2 class="mt-10 text-xl text-gray-700">{{ number }} divided by 4 = {{ number/4 }}</h2>
       <h2 class="mt-10 text-xl text-gray-700">{{ number }} is {{ number % 2==0? "Even":"Odd" }}</h2>
       <h2 class="mt-10 text-xl text-gray-700">
-      <a target="_blank" :href='pexels+animal.toLowerCase'>Search for {{ animal }}</a>
+      <a target="_blank" :href='pexels+animal.toLowerCase()'>Search for {{ animal }}</a>
       </h2>
   </div>
 </template>
